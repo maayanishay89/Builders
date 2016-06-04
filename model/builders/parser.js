@@ -1,7 +1,7 @@
 
 exports.addDataToSearch = function(data,callback) {
 
-    var dataArray = data.split(/[" "=:?!*%()@$^&_=-]/);
+    var dataArray = data.split(/[" "=:?!,*%()@$^&_=-]/);
     callback(dataArray);
 }
 
